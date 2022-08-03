@@ -11,18 +11,13 @@ Você se juntou a um grupo de pesquisa que está indo justamente procurar por um
 
 A região da floresta sendo explorada será representada por uma matriz 20x20. Você deve assumir que cada célula da matriz é quadrada e tem área de 1 km². O grupo irá partir de uma posição (i,j) e, para registrar o caminho sendo percorrido, você será informado(a) para qual direção o grupo vai andar (norte, sul, leste ou oeste, assumindo que o norte é para cima) e quantos quilômetros serão percorridos nessa direção (sem contar a célula atual). Além disso, você será informado(a) sempre que um exemplar da árvore sendo estudada for encontrado na região correspondente a célula atual.
 
-A matriz estará inicialmente preenchida com o caractere '.'. Para marcar o caminho, você deve substituir o caractere '.' da posição inicial e de cada célula percorrida por '+'. Caso exista uma árvore de interesse, você deverá substituir o caractere '+' da posição atual por '#', indicando onde a árvore de interesse foi encontrada. Se você passar por uma posição onde uma árvore foi encontrada você deve manter o caractere '#'. Por exemplo, partindo da posição inicial (6,1) vocês andaram 4 km para o norte, 3 km para o leste, encontraram uma árvore de interesse, andaram 2 km para o sul e andaram 4km para o norte, essa parte da matriz deve ser preenchida da seguinte forma.
+A matriz estará inicialmente preenchida com o caractere '.'. Para marcar o caminho, você deve substituir o caractere '.' da posição inicial e de cada célula percorrida por '+'. Caso exista uma árvore de interesse, você deverá substituir o caractere '+' da posição atual por '#', indicando onde a árvore de interesse foi encontrada. Se você passar por uma posição onde uma árvore foi encontrada você deve manter o caractere '#'. Por exemplo, partindo da posição inicial (6,1) vocês andaram 4 km para o norte, 3 km para o leste, encontraram uma árvore de interesse, andaram 2 km para o sul e andaram 4km para o norte, essa parte da matriz deve ser preenchida da seguinte forma.<br>
 
-<b>. . . . + .<br>
-. . . . + .<br>
-. + + + # .<br>
-. + . . + .<br>
-. + . . + .<br>
-. + . . . .<br>
-. + . . . .<br>
-. . . . . .</b><br><br>
+<p align="center">
+  <img src="https://media.discordapp.net/attachments/1004187806345740310/1004482981425066095/2022-08-03_15.png?width=245&height=405" />
+</p>
 
-Como entrada, o seu programa irá receber uma linha inicial com 2 inteiros i, j correspondentes a posição inicial (linha i e coluna j). Em seguida cada linha terá um dos seguintes formatos:
+Como entrada, o seu programa irá receber uma linha inicial com 2 inteiros i, j correspondentes a posição inicial (linha i e coluna j). Em seguida cada linha terá um dos seguintes formatos:<br>
 
 <b>•	N k indicando que vocês vão andar k quilômetros para o norte.<br>
 •	S k indicando que vocês vão andar k quilômetros para o sul.<br>
